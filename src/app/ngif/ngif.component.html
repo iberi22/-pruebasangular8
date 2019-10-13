@@ -1,2 +1,10 @@
-<h1 class="container">NgIf
-DIRECTIVE</h1>
+<h1 class="container bg-dark text-white text-center my-4 py-4">NgIf
+directiva show={{show}}</h1>
+
+<div class="container">
+    <button class="btn  btn-warning" (click)="show=!show">activar</button>
+     <p class="text-info" *ngIf="show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi et accusantium placeat ratione beatae labore expedita assumenda quia architecto voluptas quae consequatur, non totam odit sequi possimus soluta sed excepturi.</p>
+     <p class="text-danger">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus similique neque quisquam, distinctio odio harum ratione? Molestiae dicta doloremque, quidem voluptas totam expedita asperiores amet! Accusamus dignissimos cum porro nostrum.</p>
+
+
+</div>
