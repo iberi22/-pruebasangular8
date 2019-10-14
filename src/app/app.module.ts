@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AgularmaterialComponent } from './agularmaterial/agularmaterial.component';
 import { MatButtonModule } from '@angular/material';
+import { MaterialModule } from "./material/material.module";
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { MatButtonModule } from '@angular/material';
     NgifComponent,
     AgularmaterialComponent,
 
+
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { MatButtonModule } from '@angular/material';
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
