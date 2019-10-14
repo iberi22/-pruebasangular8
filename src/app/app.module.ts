@@ -8,18 +8,27 @@ import { FormsModule } from '@angular/forms';
 
 import { HttpClientModule } from '@angular/common/http';
 import { NgifComponent } from './ngif/ngif.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { AgularmaterialComponent } from './agularmaterial/agularmaterial.component';
+import { MatButtonModule } from '@angular/material';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ListComponent,
-    NgifComponent
+    NgifComponent,
+    AgularmaterialComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
